@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(195px, 1fr));
+    grid-auto-flow: dense;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.Img {
+    outline: 3px solid #000000;
+    outline-offset: -10px;
+    max-width: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.i1x1 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.i2x2 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.i3x3 {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.i1x2 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.i2x1 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.i1x3 {
+    grid-column: span 1;
+    grid-row: span 3;
+}
+
+.i3x1 {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.i3x2 {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.i2x3 {
+    grid-column: span 2;
+    grid-row: span 3;
+}
