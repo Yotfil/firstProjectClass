@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(24,1fr);
+    grid-template-rows: repeat(24,50px);
+    max-width: 1200px;
+    margin: auto;
+    gap:10px;
+}
+.hijo {
+    outline: 3px solid rgb(217, 228, 217);
+    width: 100%; 
+    height: 100%;
+}
+.hijo1 {
+    grid-column: 1/12;
+    grid-row: 1/6;
+}
+.hijo2{
+    grid-column: 1/6;
+    grid-row: 6/12;
+}
+.hijo3{
+    grid-column:6/12;
+    grid-row: 6/12;
+}
+.hijo4{
+    grid-column:1/6 ;
+    grid-row:12/18 ;
+}
+.hijo5{
+    grid-column:6/12;
+    grid-row: 12/18;
+}
+.hijo6{
+    grid-column:1/6 ;
+    grid-row:18/24 ;
+}
+.hijo7{
+    grid-column:6/18 ;
+    grid-row:18/24;
+}
+.hijo8{
+    grid-column:12/18 ;
+    grid-row:12/18 ;
+}
+.hijo9{
+    grid-column:12/18 ;
+    grid-row:1/6;
+}
+.hijo10{
+    grid-column:12/25 ;
+    grid-row:6/12;
+}
+.hijo11{
+    grid-column:18/25 ;
+    grid-row:1/6;
+}
+.hijo12{
+    grid-column:18/25 ;
+    grid-row:12/18;
+}
+.hijo13{
+    grid-column:18/25 ;
+    grid-row:18/24;
+}
+
